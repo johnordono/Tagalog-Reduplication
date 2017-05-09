@@ -14,7 +14,7 @@ of a word (or part of it) or even the whole word is repeated exactly or with a
 slight change [1]. Reduplication in Tagalog may be of one of more syllables and
 it may be at the beginning or end of a word [2]. Types of reduplication are:<br />
 *	monosyllabic, where a single syllable is reduplicated<br />
-+		e.g. 
++		e.g. olol 'mad'
 *	partial, where one syllable near the beginning of a word is
 	 reduplicated, the syllable being either the first syllable of 
 	 a root or one of the syllables of a prefix<br />

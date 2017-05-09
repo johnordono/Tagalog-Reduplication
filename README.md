@@ -1,2 +1,42 @@
 # Tagalog-Reduplication
-A bash program to collect reduplication used within Tagalog. 
+John Ordono
+Dr. Scannell
+Unix Tools
+Tagalog Reduplication Dictionary
+
+The goal of this project is to make additions for a Tagalog word dictionary.
+The linguistic aspect that I will be looking into is reduplication.
+
+==== Reduplication in Tagalog Usage ====
+
+Reduplication in linguistics is a morphological process in which the root or stem
+of a word (or part of it) or even the whole word is repeated exactly or with a 
+slight change [1]. Reduplication in Tagalog may be of one of more syllables and
+it may be at the beginning or end of a word [2]. Types of reduplication are:
+	- monosyllabic, where a single syllable is reduplicated
+		e.g. 
+	- partial, where one syllable near the beginning of a word is
+	  reduplicated, the syllable being either the first syllable of 
+	  a root or one of the syllables of a prefix
+		e.g. susulat from sulat 'write'
+		     magkaka-utang from magka-utang 'owe'
+	- full, in which the first two syllables of a word or root are repeated
+		e.g. arawaraw from araw 'day'
+	- combined partial and full
+		e.g. iisaisa from isa 'one'
+		     babalibaligtad from baligtad 'turn'
+	- reduplication of the final syllable
+		e.g. bulaklak from bulak 'flower' 
+		
+Reduplication may be either significant or non-significant. Non-significant in the
+sense that there is no semantic reason for the reduplication. 
+	e.g. lalaki 'man' or babae 'woman'
+However, more often than not, there is a reason why there is reduplication in a word [2].
+
+The goal os this project will be to find words in Tagalog that match these descriptions
+and store them in a list.
+
+
+Sources:
+[1] "Reduplication", Wikipedia. https://en.wikipedia.org/wiki/Reduplication
+[2] "Reduplication in Tagalog", The American Journal of Philology, Vol 38, No 4, pages 425-431. https://www.jstor.org/stable/288967?seq=1#page_scan_tab_contents

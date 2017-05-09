@@ -31,6 +31,7 @@ it may be at the beginning or end of a word [2]. Types of reduplication are:<br 
 Reduplication may be either significant or non-significant. Non-significant in the
 sense that there is no semantic reason for the reduplication.<br /> 
 *		e.g. lalaki 'man' or babae 'woman'
+<br />
 However, more often than not, there is a reason why there is reduplication in a word [2].<br />
 <br />
 The goal os this project will be to find words in Tagalog that match these descriptions

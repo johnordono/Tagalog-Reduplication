@@ -13,24 +13,24 @@ Reduplication in linguistics is a morphological process in which the root or ste
 of a word (or part of it) or even the whole word is repeated exactly or with a 
 slight change [1]. Reduplication in Tagalog may be of one of more syllables and
 it may be at the beginning or end of a word [2]. Types of reduplication are:<br />
-*	- monosyllabic, where a single syllable is reduplicated<br />
+*	monosyllabic, where a single syllable is reduplicated<br />
 +		e.g.<br /> 
-	- partial, where one syllable near the beginning of a word is
-	  reduplicated, the syllable being either the first syllable of 
-	  a root or one of the syllables of a prefix<br />
-		e.g. susulat from sulat 'write'<br />
-		     magkaka-utang from magka-utang 'owe'<br />
-	- full, in which the first two syllables of a word or root are repeated<br />
-		e.g. arawaraw from araw 'day'<br />
-	- combined partial and full<br />
-		e.g. iisaisa from isa 'one'<br />
-		     babalibaligtad from baligtad 'turn'<br />
-	- reduplication of the final syllable<br />
-		e.g. bulaklak from bulak 'flower'<br /> 
+*	partial, where one syllable near the beginning of a word is
+	 reduplicated, the syllable being either the first syllable of 
+	 a root or one of the syllables of a prefix<br />
++		e.g. susulat from sulat 'write'<br />
++		     magkaka-utang from magka-utang 'owe'<br />
+*	full, in which the first two syllables of a word or root are repeated<br />
++		e.g. arawaraw from araw 'day'<br />
+*	combined partial and full<br />
++		e.g. iisaisa from isa 'one'<br />
++		     babalibaligtad from baligtad 'turn'<br />
+*	reduplication of the final syllable<br />
++		e.g. bulaklak from bulak 'flower'<br /> 
 <br />		
 Reduplication may be either significant or non-significant. Non-significant in the
 sense that there is no semantic reason for the reduplication.<br /> 
-	e.g. lalaki 'man' or babae 'woman'
++	e.g. lalaki 'man' or babae 'woman'
 However, more often than not, there is a reason why there is reduplication in a word [2].<br />
 <br />
 The goal os this project will be to find words in Tagalog that match these descriptions

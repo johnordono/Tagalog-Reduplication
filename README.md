@@ -3,7 +3,7 @@ John Ordono
 Dr. Scannell
 Unix Tools
 Tagalog Reduplication Dictionary
-
+	
 The goal of this project is to make additions for a Tagalog word dictionary.
 The linguistic aspect that I will be looking into is reduplication.
 

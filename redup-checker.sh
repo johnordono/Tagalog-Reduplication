@@ -1,5 +1,5 @@
 #!/bin/bash
-cat TestCases.txt |
+cat TestCases.txt | tr -d '\r' | sed 's/[0123456789.,-<>;:]//g' |
 while read x
 do
 	WORD=`echo $x | tr -d '\n' | tr -d '\r'`
@@ -26,11 +26,13 @@ do
 		SECT2REV=`echo ${REVWORD:FIRSTEND:LENGTH}`		
 		#echo 'Second Sect Rev' $SECT2REV
 		if [ "$SECT1" = "$SECT2" ];then
-			echo "Reduplication found (At beginning)" $WORD
+			#echo "Reduplication found (At beginning)" $WORD
+			echo $WORD >> TestOutput.txt
 			break
 		fi
 		if [ "$SECT1REV" = "$SECT2REV" ];then
-			echo "Reduplication found (At end)" $WORD
+			#echo "Reduplication found (At end)" $WORD
+			echo $WORD >> TestOutput.txt
 		fi
 	done
 done

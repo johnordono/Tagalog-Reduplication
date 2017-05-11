@@ -32,7 +32,7 @@ Reduplication may be either significant or non-significant. Non-significant in t
 sense that there is no semantic reason for the reduplication:
 +		e.g. lalaki 'man' or babae 'woman'
 
-However, more often than not, there is a reason why there is reduplication in a word [2].
+However, often, there is a reason why there is reduplication in a word [2].
 
 The goal os this project will be to find words in Tagalog that match these descriptions
 and store them in a list.

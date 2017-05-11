@@ -1,7 +1,25 @@
 #!/bin/bash
-cat TestCases.txt | tr -d '\r' | sed 's/[0123456789.,-<>;:]//g' |
+
+#In File - 	Argument 1
+#This file includes all the links that you would like to strip characters from.
+INFILE=$1 
+#Temp File - Argument 2
+#Holds all contents of links.
+TEMPFILE=$2
+#Out File - Argument 3
+#Holds list of words with reduplication.
+OUTFILE=$3
+
+cat $INFILE | tr -d '\r' |
+while read y
+do
+	echo `wget -qO- $y >> $TEMPFILE`
+done	
+echo `perl -i.bak -pe 's/[^[:ascii:]]//g' $TEMPFILE`
+cat $TEMPFILE | tr -d '\r' | tr -d '­' | egrep "<p>" | sed 's/<\/p>//g' | sed 's/<p>//g' | tr '[A-Z]' '[a-z]' | sed 's/­//g' | sed 's/[.,><?!\/]//g' | sed 's/ /\n/g' | egrep -v '[0123456789]' |
 while read x
 do
+	#echo "Test"
 	WORD=`echo $x | tr -d '\n' | tr -d '\r'`
 	#echo $WORD
 	REVWORD=`echo $x | tr -d '\n' | tr -d '\r' | rev`
@@ -26,13 +44,14 @@ do
 		SECT2REV=`echo ${REVWORD:FIRSTEND:LENGTH}`		
 		#echo 'Second Sect Rev' $SECT2REV
 		if [ "$SECT1" = "$SECT2" ];then
-			#echo "Reduplication found (At beginning)" $WORD
-			echo $WORD >> TestOutput.txt
+			echo "Reduplication found (At beginning)" $WORD
+			echo $WORD >> $OUTFILE
 			break
 		fi
 		if [ "$SECT1REV" = "$SECT2REV" ];then
-			#echo "Reduplication found (At end)" $WORD
-			echo $WORD >> TestOutput.txt
+			echo "Reduplication found (At end)" $WORD
+			echo $WORD >> $OUTFILE
+			break
 		fi
 	done
 done

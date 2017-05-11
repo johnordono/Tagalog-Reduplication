@@ -17,4 +17,17 @@ The linguistic aspect that I will be looking into is reduplication.<br />
 <br />
 
 ## philstar-links.txt:<br />
--	This is a list of article links from a Filipino news website, Pilipino Star Ngayon. The REDUPLICATION-SCRAPER can use this as its first argument in order to scrape all of the HTML code. 
+-	This is a list of article links from a Filipino news website, Pilipino Star Ngayon. The REDUPLICATION-SCRAPER can use this as its first argument in order to scrape all of the HTML code. This file contains about 50 links.<br />
+<br />
+
+## temp.txt:<br />
+- This is a temp file that holds the source code from all of the links provided. The important parts are taken from it, which are the bodies of the articles between the "<p> </p>" flags.<br />
+<br />
+
+## output.txt:<br />
+- This holds all of the found words from the temp.txt that contain reduplication. This is the output file for philstar-links.txt after running it through the REDUPLICATION-SCRAPER.sh.<br />
+<br />
+
+## sort.sh:<br />
++ usage: bash sort.sh <reduplication-word-list.txt>
+- This can be used to sort the output.txt file in order to create a frequency list of the words. 

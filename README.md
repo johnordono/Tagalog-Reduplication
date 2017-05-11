@@ -29,5 +29,5 @@ The linguistic aspect that I will be looking into is reduplication.<br />
 <br />
 
 ### sort.sh:<br />
-+ usage: bash sort.sh <reduplication-word-list.txt>
++   usage: bash sort.sh <reduplication-word-list.txt>
 - This can be used to sort the output.txt file in order to create a frequency list of the words. 

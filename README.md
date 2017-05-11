@@ -22,7 +22,7 @@ The linguistic aspect that I will be looking into is reduplication.<br />
 <br />
 
 ### temp.txt:<br />
-- This is a temp file that holds the source code from all of the links provided. The important parts are taken from it, which are the bodies of the articles between the "<p> </p>" flags.<br />
+- This is a temp file that holds the raw data from all of the links provided. The important parts are taken from it, which are the bodies of the articles between the "<p> </p>" flags.<br />
 <br />
 
 ### output.txt:<br />

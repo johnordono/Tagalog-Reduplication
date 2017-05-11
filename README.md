@@ -7,7 +7,7 @@ Tagalog Reduplication List<br />
 The goal of this project is to make additions for a Tagalog word dictionary.<br />
 The linguistic aspect that I will be looking into is reduplication.<br />
 <br />
-- ABOUT.txt:<br />
+##ABOUT.txt:<br />##
 -	This file includes background on reduplication in the Tagalog language. In summary, this project's goal is to record words that utilize reduplication by scraping them from Tagalog news websites.
 <br />
 - REDUPLICATION-SCRAPER.sh:<br />

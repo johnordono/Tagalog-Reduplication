@@ -16,7 +16,7 @@ do
 	echo `wget -qO- $y >> $TEMPFILE`
 done	
 echo `perl -i.bak -pe 's/[^[:ascii:]]//g' $TEMPFILE`
-cat $TEMPFILE | tr -d '\r' | tr -d '­' | egrep "<p>" | sed 's/<\/p>//g' | sed 's/<p>//g' | tr '[A-Z]' '[a-z]' | sed 's/­//g' | sed 's/[.,><?!\/]//g' | sed 's/ /\n/g' | egrep -v '[0123456789]' |
+cat $TEMPFILE | tr -d '\r' | tr -d '­' | egrep "<p>" | sed 's/<\/p>//g' | sed 's/<p>//g' | tr '[A-Z]' '[a-z]' | sed 's/­//g' | sed 's/[.,><?!\/)(-]//g' | sed 's/ /\n/g' | egrep -v '[0123456789]' |
 while read x
 do
 	#echo "Test"
@@ -44,11 +44,13 @@ do
 		SECT2REV=`echo ${REVWORD:FIRSTEND:LENGTH}`		
 		#echo 'Second Sect Rev' $SECT2REV
 		if [ "$SECT1" = "$SECT2" ];then
+			#Could hashtag next line out
 			echo "Reduplication found (At beginning)" $WORD
 			echo $WORD >> $OUTFILE
 			break
 		fi
 		if [ "$SECT1REV" = "$SECT2REV" ];then
+			#Could hashtag next line out
 			echo "Reduplication found (At end)" $WORD
 			echo $WORD >> $OUTFILE
 			break

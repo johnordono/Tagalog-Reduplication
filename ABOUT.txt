@@ -34,7 +34,7 @@ sense that there is no semantic reason for the reduplication:
 
 However, often, there is a reason why there is reduplication in a word [2].
 
-The goal os this project will be to find words in Tagalog that match these descriptions
+The goal of this project will be to find words in Tagalog that match these descriptions
 and store them in a list.
 
 
